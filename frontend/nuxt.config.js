@@ -143,6 +143,7 @@ export default {
       useCookie: true,
       // Cookie name
       cookieKey: 'i18n_redirected',
+      onlyOnRoot: true,
       // Set to always redirect to value stored in the cookie, not just once
       alwaysRedirect: true,
       // If no locale for the browsers locale is a match, use this one as a fallback
